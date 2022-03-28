@@ -278,8 +278,12 @@ footer {
 header {
     margin: 10px;
     margin-left: 10px;
-    
     height: auto;
+}
+
+h1 {
+
+    width: 100%;
 }
 
 
@@ -356,7 +360,11 @@ footer {
        margin-top: 30px;
        padding: 0px;
    }
+   
+   h1 {
 
+    width: 100%;
+}
    
     
     .card_video {
