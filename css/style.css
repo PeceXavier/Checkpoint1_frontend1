@@ -360,9 +360,11 @@ footer {
        margin-top: 30px;
        padding: 0px;
    }
-   
-   h1 {
 
+   h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 }
    
@@ -394,7 +396,9 @@ footer {
         gap: 50px;
         flex-wrap: wrap;
         height: 100%;
-        margin: 200px 100px 30px 100px;
+        margin:200px auto;
+        width: 70%;
+        padding-bottom: 10px;
         
     
       }
@@ -405,6 +409,9 @@ footer {
         width: 100%;
         text-align: center;
     
+    }
+    .copy {
+        padding: 10px;
     }
     
     
